@@ -1,0 +1,212 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                .navBar {
+                    height: 75px;
+                    width: 100%;
+                    background: white;
+                    border: solid 1px rgb(170, 170, 213);
+                    display: flex;
+                    align-items: center;
+                }
+                
+                .navBar .brand {
+                    height: 50px;
+                    width: 150px;
+                    background: white;
+                    margin-left: 50px;
+                    box-shadow: 1px 1px 10px blue;
+                    border-radius: 10px;
+                }
+                
+                .navBar .exp {
+                    height: 50px;
+                    width: 120px;
+                    background: blue;
+                    margin-left: 30px;
+                    border-radius: 10px;
+                    box-shadow: 2px 2px 10px blue;
+                }
+                
+                .navBar .searchBar {
+                    width: 30%;
+                    height: 40px;
+                    background: white;
+                    margin: 10px;
+                    margin-left: 25px;
+                    border: solid 1px black;
+                }
+                
+                .navBar .searchBar .icon {
+                    width: 50px;
+                    height: 40px;
+                    background: blue;
+                    float: right;
+                }
+                
+                .navBar .navItemf {
+                    width: 6%;
+                    height: 20px;
+                    background: gray;
+                    margin-left: 80px;
+                    box-shadow: 0px 8px 20px gray;
+                }
+                
+                .navBar .navItem {
+                    width: 6%;
+                    height: 20px;
+                    background: gray;
+                    margin-left: 20px;
+                    box-shadow: 0px 8px 20px gray;
+                }
+                
+                .navBar .login {
+                    width: 3%;
+                    height: 10px;
+                    background: gray;
+                    margin-left: 20px;
+                    margin-left: 40px;
+                    box-shadow: 0px 0px 20px gray;
+                }
+                
+                .navBar .join {
+                    height: 40px;
+                    width: 100px;
+                    background: blue;
+                    margin-left: 30px;
+                    border-radius: 10px;
+                    box-shadow: 2px 2px 0px blue;
+                }
+                
+                .add {
+                    width: 100%;
+                    height: 60vh;
+                    background: white;
+                    position: relative;
+                }
+                
+                .add .head {
+                    width: 20%;
+                    height: 20px;
+                    background: black;
+                    margin-left: 200px;
+                    display: inline-flex;
+                    margin-top: 120px;
+                    position: absolute;
+                    box-shadow: 0px 0px 20px black;
+                    border-radius: 10px;
+                }
+                
+                .add .h1 {
+                    position: absolute;
+                    top: 40px;
+                }
+                
+                .add .h2 {
+                    position: absolute;
+                    top: 100px;
+                    width: 10%;
+                    height: 5px;
+                    background: black;
+                    left: 0px;
+                    box-shadow: 0px 0px 20px black;
+                }
+                
+                .add .h3 {
+                    position: absolute;
+                    top: 150px;
+                    width: 10%;
+                    height: 5px;
+                    background: black;
+                    left: 0px;
+                    box-shadow: 0px 0px 20px black;
+                }
+                
+                .add .exp {
+                    height: 70px;
+                    width: 220px;
+                    background: blue;
+                    margin-left: 30px;
+                    border-radius: 10px;
+                    box-shadow: 2px 2px 20px blue;
+                    position: absolute;
+                    top: 350px;
+                    left: 170px;
+                    border: solid 2px black;
+                }
+                
+                .add .try {
+                    height: 70px;
+                    width: 220px;
+                    background: white;
+                    margin-left: 30px;
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 10px blue;
+                    position: absolute;
+                    top: 350px;
+                    left: 430px;
+                    border: solid 2px blue;
+                }
+                
+                .colla {
+                    width: 100%;
+                    height: 31vh;
+                    background: #f5f5f5;
+                    position: relative;
+                }
+                
+                .colla .head {
+                    width: 40%;
+                    height: 20px;
+                    background: white;
+                    top: 30px;
+                    position: absolute;
+                    left: 450px;
+                    border: solid 1px blue;
+                    border-radius: 40px;
+                    box-shadow: 2px 2px 30px blue;
+                    border: solid 2px black;
+                }
+                
+                .colla .company {
+                    width: 100px;
+                    height: 100px;
+                    background: white;
+                    position: absolute;
+                    top: 120px;
+                    left: 250px;
+                    border: solid 1px blue;
+                    border-radius: 40px;
+                    box-shadow: 2px 2px 30px blue;
+                }
+                
+                .colla .c1 {
+                    left: 400px;
+                }
+                
+                .colla .c2 {
+                    left: 550px;
+                }
+                
+                .colla .c3 {
+                    left: 700px;
+                }
+                
+                .colla .c4 {
+                    left: 850px;
+                }
+                
+                .colla .c5 {
+                    left: 1000px;
+                }
+                
+                .colla .c6 {
+                    left: 1150px;
+                }
+                
+                .colla .c7 {
+                    left: 1300px;
+                }
